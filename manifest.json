@@ -1,0 +1,13 @@
+{
+	"manifest_version": 2,
+	"name" : "Display Thumbnails",
+	"description" : "View youtube thumbnails easily",
+	"version" : "0.0.1",
+	"permissions" : [
+		"tabs"
+	],
+	"browser_action" : {
+		"default_popup" : "popup.html",
+		"default_title" : "Show thumbnail"
+	}
+}
